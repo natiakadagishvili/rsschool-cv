@@ -1,0 +1,68 @@
+
+body{
+    background-color: slategray;
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+
+width: 600px;
+margin: auto;
+}
+
+nav > ul{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+nav > ul li{
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    
+    background-color:gray;
+    border-radius: 5%;
+
+    
+}
+
+a {
+    text-decoration: none;
+    
+    padding: 10px;
+}
+
+h1, a, p, h2, ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.profile-photo{
+    width: 150px; 
+    height: 175px;
+    margin-left: 100px;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 500px;
+
+}
+
+.date {
+    margin-left: 300px;
+}
+
+.rs-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.github-logo{
+    border-radius: 50%;
+}
